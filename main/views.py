@@ -97,4 +97,4 @@ def bec(request):
 def homepage(request):
     return render(request = request,
                   template_name = 'main/home.html',
-                  context = {"channels": Channel.objects.all()})
+                  context = {"channels": Channel.objects.all})

@@ -3,7 +3,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import math
-import commpy
 
 # Loading the Parameters from the Encoding
 img = np.load('./media/figs/input.npy')
