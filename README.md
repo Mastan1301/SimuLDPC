@@ -20,4 +20,10 @@ pip install django==2.1.5 numpy matplotlib
  
  ### Screenshots: 
  
+ ![1](https://github.com/Mastan1301/SimuLDPC/blob/master/media/figs/1.png)
+  ![2](https://github.com/Mastan1301/SimuLDPC/blob/master/media/figs/2.png)
+   ![3](https://github.com/Mastan1301/SimuLDPC/blob/master/media/figs/3.png)
+    ![4](https://github.com/Mastan1301/SimuLDPC/blob/master/media/figs/4.png)
+     ![5](https://github.com/Mastan1301/SimuLDPC/blob/master/media/figs/5.png)
+ 
  
