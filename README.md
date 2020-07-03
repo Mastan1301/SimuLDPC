@@ -15,3 +15,5 @@ pip install django==2.1.5 numpy matplotlib
  python manage.py runserver
  ```
  For the driver code, check out the ```main/utils/``` directory.
+ 
+ You can use ```sample.png``` image for quick simulation.
