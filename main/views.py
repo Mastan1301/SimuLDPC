@@ -73,14 +73,13 @@ def bec(request):
         if form.is_valid():
             p = form.cleaned_data.get("p")
             img = form.cleaned_data.get("img")
-            algo = form.cleaned_data.get("select")
             img = Image.open(img).convert('L')
             img.save("./media/figs/input.png")
 
             data = np.array(img, dtype = np.uint8)
             np.save("./media/figs/input.npy", data/255)
             encode.main(data)
-            ber = becDecode.main(p, algo)                       
+            ber = becDecode.main(p)                       
 
     else:
         img = Image.open("./media/figs/plain.jpeg")
