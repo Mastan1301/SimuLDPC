@@ -8,10 +8,10 @@ Clone the repository using-
 git clone https://github.com/Mastan1301/SimuLDPC.git
 ```
 
-Install Django 2.1.5, NumPy, MatplotLib using pip
+Install Django 2.1.5, NumPy, MatplotLib and PIL(Python Image Library) using pip.
 
-```
-pip install django==2.1.5 numpy matplotlib
+``` 
+pip install django==2.1.5 numpy matplotlib pillow
  ```
  ```
  cd SimuLDPC
