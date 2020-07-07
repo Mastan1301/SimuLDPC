@@ -1,5 +1,5 @@
 # SimuLDPC
-Web-application for simulation of LDPC codes
+Web-application for the simulation of LDPC codes
 
 ## Instructions to run the app:
 
