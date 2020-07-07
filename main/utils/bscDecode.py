@@ -172,7 +172,7 @@ def main(p, algo):
             decod = beliefProp(r, i)
             error = (img != decod).sum()
             BER_b.append(error/size)
-            res[i] = BER_b[-1]
+            res[i] = round(BER_b[-1], 3)
         
         plt.plot(p, BER_b, marker='o', label="Belief Propagation")
         plt.xlabel("p")
@@ -187,7 +187,7 @@ def main(p, algo):
         decod = gallagher(r)
         error = (img != decod).sum()
         BER_g.append(error/size)
-        res[i] = BER_g[-1]
+        res[i] =  round(BER_g[-1], 3)
 
     plt.plot(p, BER_g, marker='o', label="Gallagher-A")
     plt.xlabel("p")

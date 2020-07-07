@@ -103,6 +103,7 @@ def belief_prop(bits): # decoding
 def main(p):
     BER = []
     res = {}
+    p = list(map(float, p.split(" ")))
 
     for i in p:
         print("For p =", i)
@@ -110,7 +111,7 @@ def main(p):
         decod = belief_prop(r)
         error = (img != decod).sum()
         BER.append(error/size)
-        res[i] = BER[-1]
+        res[i] = round(BER[-1], 3)
 
     plt.plot(p, BER, marker = 'o')
     plt.xlabel('p')
