@@ -22,7 +22,7 @@ pip install django==2.1.5 numpy matplotlib
  ```
  python manage.py runserver
  ```
- For the driver code, check out the ```main/utils/``` directory.
+ For the driver code, check out the ```main/utils/``` directory. For more information about the theory of LDPC codes, check out [this link](https://github.com/Mastan1301/Signal-Processing/tree/master/LDPC).
  
  You can use ```sample.png``` image for quick simulation.
  
