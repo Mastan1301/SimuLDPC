@@ -1,5 +1,6 @@
 <head>
     {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -27,7 +28,7 @@
     <div class="container">
         <div class="row">
             {% for ch in channels %}
-            <div class="col s12 m7 l4">
+            <div class="col s12 m4">
                 <a href={{ch.channel_slug}}>
                     <div class="card hoverable grey darken-4">
                         <div class="card-image">
